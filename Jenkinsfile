@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'master' }
+  agent { label 'agent-1' }
 
   environment {
     REGION = "us-east-1"
