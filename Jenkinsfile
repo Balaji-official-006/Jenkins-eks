@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     REGION = "us-east-1"
-    ECR_URI = "017540984476.dkr.ecr.us-east-1.amazonaws.com/jenkins-eks-app"
+    ECR_URI = "017540984476.dkr.ecr.us-east-1.amazonaws.com/jenkins-ecs-app"
   }
 
   stages {
