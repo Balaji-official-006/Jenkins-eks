@@ -10,7 +10,7 @@ pipeline {
 
     stage('Clone') {
       steps {
-        git 'https://github.com/yourrepo.git'
+        git 'https://github.com/Balaji-official-006/Jenkins-eks.git'
       }
     }
 
