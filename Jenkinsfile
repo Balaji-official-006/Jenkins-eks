@@ -3,16 +3,10 @@ pipeline {
 
   environment {
     REGION = "us-east-1"
-    ECR_URI = "017540984476.dkr.ecr.us-east-1.amazonaws.com/jenkins-ecs-app"
+    ECR_URI = "017540984476.dkr.ecr.us-east-1.amazonaws.com/jenkins-eks-app"
   }
 
   stages {
-
-    stage('Clone') {
-      steps {
-        git 'https://github.com/Balaji-official-006/Jenkins-eks.git'
-      }
-    }
 
     stage('Build Docker Image') {
       steps {
